@@ -1,2 +1,5 @@
-# sql-data-warehouse-project
-Building my own modern data warehouse with PostgreSQL, including ETL processes, data modeling, and analytics.
+# Data Warehouse and Analytics Project built by following the tutorial from Data with Baraa
+
+My own **Data Warehouse and Analytics Project** repository
+
+This project is a portfolio project utilizing PostgreSQL for data warehousing.
