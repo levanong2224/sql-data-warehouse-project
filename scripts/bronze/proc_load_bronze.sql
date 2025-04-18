@@ -1,18 +1,4 @@
 /*
- * T-SQL (microsoft sql server)
-BULK insert bronze.crm_cust_info
-from '/Users/levan/Data Engineer stuff/DATA WAREHOUSE PROJECT/DW PROJECT PROPER/datasets/source_crm/cust_info.csv'
-with (
-	FIRSTROW = 2,
-	FIELDTERMINATOR = ',',
-	TABLOCK
-);
-*/
-
-
-
-
-/*
  * =====================================================================
  * 
  * Stored Procedure: Load Bronze Layer (Source -> Bronze)
@@ -25,6 +11,16 @@ with (
  * It performes the following actions:
  * - Truncates the brnze tables before loading data.
  * - Uses the 'COPY' command to load data from csv Files to bronze tables.
+ * 
+ * 
+ * Parameters:
+ * 
+ * None.
+ * This stored procedure does not accept any parameters or return any values.
+ * 
+ * 
+ * Usage Example: 
+ * CALL bronze.load_bronze();
  */
 
 -- Stored Procedure
